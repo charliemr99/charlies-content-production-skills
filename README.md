@@ -2,6 +2,8 @@
 
 Paquete autocontenido para instalar 28 skills: 24 en `~/.agents/skills` y 4 en `~/.codex/skills`. No descarga ni instala software, no toca otras skills y no contiene configuración global completa ni credenciales.
 
+Este repositorio es un vehículo público temporal de transferencia. Se eliminará después de completar y verificar la instalación remota. Las atribuciones y licencias de las skills de terceros están documentadas en `THIRD_PARTY_NOTICES.md` y `licenses/`.
+
 ## Uso
 
 Desde la raíz del paquete:
