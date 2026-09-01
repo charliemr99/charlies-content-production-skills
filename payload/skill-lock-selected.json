@@ -1,0 +1,221 @@
+{
+  "skills": {
+    "ad-creative": {
+      "installedAt": "2026-04-28T00:18:51.751Z",
+      "skillFolderHash": "159f738f85105791bd2590cd3e164e53aa5c23d6",
+      "skillPath": "skills/ad-creative/SKILL.md",
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "updatedAt": "2026-04-28T00:18:51.751Z"
+    },
+    "general-video": {
+      "installedAt": "2026-08-25T22:00:31.701Z",
+      "skillFolderHash": "eeeb2dc8c628fc355df1bc4e7a776f4939dac8d3",
+      "skillPath": "skills/general-video/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.701Z"
+    },
+    "hyperframes": {
+      "installedAt": "2026-07-29T14:36:33.978Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "7142bea6c179e84bdf44597e0d5fafd8fee91747",
+      "skillPath": "skills/hyperframes/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.701Z"
+    },
+    "hyperframes-animation": {
+      "installedAt": "2026-07-29T14:36:33.979Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "194b82f83cb4f7d614beb5a602fefafbcac90581",
+      "skillPath": "skills/hyperframes-animation/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.702Z"
+    },
+    "hyperframes-audio": {
+      "installedAt": "2026-08-25T22:00:31.702Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "b1aad4f47a267235bb6d2b7c85dcba1626f728b7",
+      "skillPath": "skills/hyperframes-audio/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.702Z"
+    },
+    "hyperframes-cli": {
+      "installedAt": "2026-07-29T14:36:33.980Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "7b6cf7851d330752126df781710aea81e4fb4bd1",
+      "skillPath": "skills/hyperframes-cli/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.703Z"
+    },
+    "hyperframes-core": {
+      "installedAt": "2026-07-29T14:36:33.980Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "85ce3f00d1ab2ec8d17165220d2a57245d52f026",
+      "skillPath": "skills/hyperframes-core/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.703Z"
+    },
+    "hyperframes-creative": {
+      "installedAt": "2026-07-29T14:36:33.981Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "1afda9bdea256c342cbe0ab9b2e152afc3958c09",
+      "skillPath": "skills/hyperframes-creative/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.704Z"
+    },
+    "hyperframes-keyframes": {
+      "installedAt": "2026-07-29T14:36:33.981Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "7388a32ad3c69ce46e2ffca4beb462139e1e885c",
+      "skillPath": "skills/hyperframes-keyframes/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.704Z"
+    },
+    "hyperframes-registry": {
+      "installedAt": "2026-07-29T14:36:33.984Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "7440883a4d978487c4e64370d3ad50080882d7be",
+      "skillPath": "skills/hyperframes-registry/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.705Z"
+    },
+    "media-use": {
+      "installedAt": "2026-07-29T14:36:33.985Z",
+      "pluginName": "core-skills",
+      "skillFolderHash": "cfa7fd5a826e0533bfa80fa1777110f5176367ec",
+      "skillPath": "skills/media-use/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-28T20:12:34.095Z"
+    },
+    "motion-graphics": {
+      "installedAt": "2026-08-07T15:40:05.337Z",
+      "skillFolderHash": "af656176e37dd18c040cbc13a673088c96468b65",
+      "skillPath": "skills/motion-graphics/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.706Z"
+    },
+    "product-launch-video": {
+      "installedAt": "2026-07-29T14:36:33.985Z",
+      "skillFolderHash": "92bed3e05359716c17d47c27af8b690db3ef0c27",
+      "skillPath": "skills/product-launch-video/SKILL.md",
+      "source": "heygen-com/hyperframes",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/heygen-com/hyperframes.git",
+      "updatedAt": "2026-08-25T22:00:31.706Z"
+    },
+    "review-animations": {
+      "installedAt": "2026-06-29T00:52:01.650Z",
+      "skillFolderHash": "babe81c1ca0ae3c735fc537486cb120cd6645198",
+      "skillPath": "skills/review-animations/SKILL.md",
+      "source": "emilkowalski/skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/emilkowalski/skills.git",
+      "updatedAt": "2026-06-29T00:52:01.650Z"
+    },
+    "social-content": {
+      "installedAt": "2026-04-28T00:18:51.769Z",
+      "skillFolderHash": "05d19fe1aee3346263af207b3213d3893ba4c481",
+      "skillPath": "skills/social-content/SKILL.md",
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "updatedAt": "2026-04-28T00:18:51.769Z"
+    },
+    "video": {
+      "installedAt": "2026-04-28T00:18:51.769Z",
+      "skillFolderHash": "2d8f9559c4b11593ebee87bacd1c08a1ea32eb4c",
+      "skillPath": "skills/video/SKILL.md",
+      "source": "coreyhaines31/marketingskills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/coreyhaines31/marketingskills.git",
+      "updatedAt": "2026-04-28T00:18:51.769Z"
+    },
+    "viral-captions-and-ctas": {
+      "installedAt": "2026-06-29T00:51:54.754Z",
+      "skillFolderHash": "35778b9a4031bc118ab9cb6d6012819692c152db",
+      "skillPath": "skills/viral-captions-and-ctas/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.754Z"
+    },
+    "viral-hooks": {
+      "installedAt": "2026-06-29T00:51:54.755Z",
+      "skillFolderHash": "ca413e757e296d5468272d52cb7f7bdbe960c99b",
+      "skillPath": "skills/viral-hooks/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.755Z"
+    },
+    "viral-instagram-reels": {
+      "installedAt": "2026-06-29T00:51:54.755Z",
+      "skillFolderHash": "21e069920f509d61086e8fac6debc8aa04e4a379",
+      "skillPath": "skills/viral-instagram-reels/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.755Z"
+    },
+    "viral-short-form": {
+      "installedAt": "2026-06-29T00:51:54.756Z",
+      "skillFolderHash": "f1ee6ae1a0f21f7dac2662ac7592d79b26172a19",
+      "skillPath": "skills/viral-short-form/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.756Z"
+    },
+    "viral-short-form-ideas": {
+      "installedAt": "2026-06-29T00:51:54.756Z",
+      "skillFolderHash": "f16b122b6f8d0542ff4994b83d0a0c4b229477b2",
+      "skillPath": "skills/viral-short-form-ideas/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.756Z"
+    },
+    "viral-tiktok-content": {
+      "installedAt": "2026-06-29T00:51:54.757Z",
+      "skillFolderHash": "70886633afff9304a1e23b153acf61b79f2049fa",
+      "skillPath": "skills/viral-tiktok-content/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.757Z"
+    },
+    "viral-youtube-shorts": {
+      "installedAt": "2026-06-29T00:51:54.757Z",
+      "skillFolderHash": "b8c63e19ee5e7638c53b9b5cd69bd332b6c2911e",
+      "skillPath": "skills/viral-youtube-shorts/SKILL.md",
+      "source": "vyralcontent/content-skills",
+      "sourceType": "github",
+      "sourceUrl": "https://github.com/vyralcontent/content-skills.git",
+      "updatedAt": "2026-06-29T00:51:54.757Z"
+    }
+  },
+  "version": 3
+}

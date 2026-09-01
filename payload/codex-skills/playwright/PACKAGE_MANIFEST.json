@@ -1,0 +1,269 @@
+{
+  "schema_version": 1,
+  "package_version": "1.2.0",
+  "name": "charlies-workflow-skills",
+  "owner": "charliemr99",
+  "creator": "GreenByte Studios",
+  "visibility": "public",
+  "description": "Codex-first Agent Skills package for Charlie's development workflow.",
+  "skills": [
+    {
+      "name": "charlies-workflow",
+      "category": "workflow",
+      "ownership": "greenbyte-authored",
+      "license": "MIT",
+      "adapted": false,
+      "activation": {"role": "explicit-entry", "implicit": false},
+      "dependencies": {
+        "bundled": [
+          "brainstorming",
+          "doc-it",
+          "emil-design-eng",
+          "hallmark",
+          "playwright",
+          "playwright-interactive",
+          "pr-title-and-description",
+          "subagent-driven-development",
+          "test-driven-development",
+          "ui-ux-pro-max",
+          "using-git-worktrees",
+          "writing-plans"
+        ],
+        "external_optional": [
+          "ponytail:ponytail",
+          "ponytail:ponytail-review",
+          "ponytail:ponytail-audit"
+        ]
+      },
+      "required_resources": [
+        "actions/01-ground-and-route.md",
+        "actions/02-discover-and-spec.md",
+        "actions/03-plan.md",
+        "actions/04-implement.md",
+        "actions/05-verify-and-document.md",
+        "actions/06-review-and-publish.md",
+        "references/helper-loading.md"
+      ],
+      "source": {"type": "repository-owned", "path": "skills/charlies-workflow"},
+      "notes": "Explicit-only Feature and Project Track router with approval fingerprints, exact-HEAD evidence, and optional capability-aware Ponytail routing."
+    },
+    {
+      "name": "charlies-content-workflow",
+      "category": "workflow",
+      "ownership": "greenbyte-authored",
+      "license": "MIT",
+      "adapted": false,
+      "activation": {"role": "explicit-entry", "implicit": false},
+      "dependencies": {
+        "bundled": ["charlies-workflow"],
+        "external_optional": []
+      },
+      "required_resources": [
+        "references/content-brief-and-research.md",
+        "references/claims-and-evidence.md",
+        "references/production-and-hyperframes.md",
+        "references/final-av-qa-and-handoff.md"
+      ],
+      "source": {
+        "type": "repository-owned",
+        "path": "skills/charlies-content-workflow"
+      },
+      "notes": "Explicit-only content-production overlay that delegates generic delivery gates to Charlie's Workflow."
+    },
+    {
+      "name": "hallmark",
+      "category": "ui-ux",
+      "ownership": "third-party-adapted",
+      "license": "MIT",
+      "adapted": true,
+      "activation": {"role": "standalone-helper", "implicit": false},
+      "dependencies": {
+        "bundled": [],
+        "external_optional": [
+          "network access for URL study and pinned upstream examples",
+          "third-party brand and asset sources"
+        ]
+      },
+      "required_resources": [
+        "LICENSE.txt",
+        "NOTICE.txt",
+        "references/assets.md",
+        "references/study.md"
+      ],
+      "source": {
+        "type": "upstream-adapted",
+        "repository": "Nutlope/hallmark",
+        "version": "1.1.0",
+        "commit": "aeb42fb354ff4efa36ab475773a082315a3af2ce"
+      },
+      "notes": "Metadata and escaped upstream-example links are adapted for explicit-only, self-contained package validation."
+    },
+    {
+      "name": "emil-design-eng",
+      "category": "ui-ux",
+      "ownership": "third-party",
+      "license": "MIT",
+      "adapted": false,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": ["LICENSE.txt"],
+      "source": {
+        "type": "upstream",
+        "repository": "emilkowalski/skills",
+        "commit": "f76beceb7d3fc8c43309cefad5a095a206103a4e"
+      },
+      "notes": "Upstream skill body and MIT license are pinned to a reviewed commit; the skill blob is unchanged from ecf66bbd1fb33c25332b6b0e454d08049978284c."
+    },
+    {
+      "name": "ui-ux-pro-max",
+      "category": "ui-ux",
+      "ownership": "third-party-adapted",
+      "license": "MIT",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": [
+        "LICENSE.txt",
+        "data/products.csv",
+        "scripts/search.py"
+      ],
+      "source": {
+        "type": "upstream-adapted",
+        "repository": "nextlevelbuilder/ui-ux-pro-max-skill",
+        "commit": "87c6c3e0e1a8891d79795d3e3061f10b650de51b"
+      },
+      "notes": "Upstream symlink targets are vendored as real resources; command paths and text line endings are normalized for portable installation and repository checks."
+    },
+    {
+      "name": "doc-it",
+      "category": "documentation",
+      "ownership": "third-party-adapted",
+      "license": "MIT",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": ["LICENSE.txt"],
+      "source": {
+        "type": "upstream-adapted",
+        "repository": "onlydole/overdue",
+        "commit": "eb1f11807296ae09826fbfc4ecac84bda97982d9",
+        "path": ".claude/skills/doc-it/SKILL.md"
+      },
+      "notes": "Unsupported Claude-only frontmatter fields are removed and allowed-tools is normalized to the Agent Skills schema."
+    },
+    {
+      "name": "pr-title-and-description",
+      "category": "github",
+      "ownership": "greenbyte-authored",
+      "license": "MIT",
+      "adapted": false,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": [],
+      "source": {"type": "repository-owned", "path": "skills/pr-title-and-description"},
+      "notes": "PR title and body guidance used by Charlie's publication phase."
+    },
+    {
+      "name": "playwright",
+      "category": "browser",
+      "ownership": "third-party-derived",
+      "license": "Apache-2.0",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": ["playwright-cli"]},
+      "required_resources": ["LICENSE.txt", "NOTICE.txt"],
+      "source": {
+        "type": "upstream-derived",
+        "repository": "microsoft/playwright-cli",
+        "commit": "34bf2ada4d4a28723bd65ba4e56ba724fdaaa959",
+        "path": "skills/playwright-cli/SKILL.md"
+      },
+      "notes": "Adapted browser skill pinned to the upstream revision current when this package first vendored it; Apache-2.0 materials are preserved."
+    },
+    {
+      "name": "playwright-interactive",
+      "category": "browser",
+      "ownership": "third-party-derived",
+      "license": "Apache-2.0",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": ["playwright", "js_repl"]},
+      "required_resources": ["LICENSE.txt", "NOTICE.txt"],
+      "source": {
+        "type": "upstream-derived",
+        "repository": "microsoft/playwright-cli",
+        "commit": "34bf2ada4d4a28723bd65ba4e56ba724fdaaa959",
+        "path": "skills/playwright-cli/SKILL.md"
+      },
+      "notes": "Interactive companion derived from the pinned Playwright skill and local browser tooling; Apache-2.0 materials are preserved."
+    },
+    {
+      "name": "brainstorming",
+      "category": "superpowers",
+      "ownership": "third-party-adapted",
+      "license": "MIT",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": ["writing-plans"], "external_optional": []},
+      "required_resources": ["visual-companion.md"],
+      "source": {"type": "upstream-adapted", "package": "superpowers", "version": "6.1.1"},
+      "notes": "Spec location, approval lineage, and handoff are adapted to Charlie's parent contract."
+    },
+    {
+      "name": "writing-plans",
+      "category": "superpowers",
+      "ownership": "third-party-adapted",
+      "license": "MIT",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": [],
+      "source": {"type": "upstream-adapted", "package": "superpowers", "version": "6.1.1"},
+      "notes": "Plan location, spec lineage, and execution handoff are adapted to Charlie's parent contract."
+    },
+    {
+      "name": "test-driven-development",
+      "category": "superpowers",
+      "ownership": "third-party",
+      "license": "MIT",
+      "adapted": false,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": ["testing-anti-patterns.md"],
+      "source": {"type": "upstream", "package": "superpowers", "version": "6.1.1"},
+      "notes": "MIT notice is preserved in THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "name": "using-git-worktrees",
+      "category": "superpowers",
+      "ownership": "third-party",
+      "license": "MIT",
+      "adapted": false,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {"bundled": [], "external_optional": []},
+      "required_resources": [],
+      "source": {"type": "upstream", "package": "superpowers", "version": "6.1.1"},
+      "notes": "MIT notice is preserved in THIRD_PARTY_NOTICES.md."
+    },
+    {
+      "name": "subagent-driven-development",
+      "category": "superpowers",
+      "ownership": "third-party-adapted",
+      "license": "MIT",
+      "adapted": true,
+      "activation": {"role": "routed-helper", "implicit": true},
+      "dependencies": {
+        "bundled": ["test-driven-development", "using-git-worktrees"],
+        "external_optional": []
+      },
+      "required_resources": [
+        "implementer-prompt.md",
+        "task-reviewer-prompt.md",
+        "scripts/review-package",
+        "scripts/task-brief"
+      ],
+      "source": {"type": "upstream-adapted", "package": "superpowers", "version": "6.1.1"},
+      "notes": "Task isolation and review technique is retained; consolidated review and finalization return to Charlie."
+    }
+  ]
+}

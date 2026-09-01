@@ -1,0 +1,6 @@
+.DS_Store
+/outputs/
+/work/
+/report/install-report.tsv
+/report/.install-report.*
+/payload/codex-skills/watch/.git/
