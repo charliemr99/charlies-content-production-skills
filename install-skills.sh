@@ -122,18 +122,21 @@ mark_all_failed() {
   done
 }
 
-check_tools() {
-  local missing=0
+report_skill_tools() {
   local tool
   for tool in node npx ffmpeg ffprobe python3 yt-dlp git; do
     if command -v "$tool" >/dev/null 2>&1; then
       printf 'tool\t%s\tavailable\n' "$tool"
     else
       printf 'tool\t%s\tmissing\n' "$tool" >&2
-      missing=1
     fi
   done
-  for tool in shasum cp mv find mktemp tar; do
+}
+
+check_runtime_tools() {
+  local missing=0
+  local tool
+  for tool in python3 cp mv find mktemp tar; do
     if ! command -v "$tool" >/dev/null 2>&1; then
       printf 'runtime\t%s\tmissing\n' "$tool" >&2
       missing=1
@@ -638,9 +641,11 @@ if [[ $VALIDATE_ONLY -eq 0 ]]; then
   fi
 fi
 
-if ! check_tools; then
+report_skill_tools
+
+if ! check_runtime_tools; then
   if [[ $VALIDATE_ONLY -eq 0 ]]; then
-    mark_all_failed missing-required-tool
+    mark_all_failed missing-installer-runtime
     finish_report || true
   fi
   exit 1
