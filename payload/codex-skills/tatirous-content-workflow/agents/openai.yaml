@@ -1,0 +1,4 @@
+interface:
+  display_name: "Tatirou Content Workflow"
+  short_description: "Organic creator video editing in HyperFrames"
+  default_prompt: "Use $tatirous-content-workflow to assemble my uploaded A-roll clips into an editable organic video."

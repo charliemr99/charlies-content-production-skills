@@ -11,5 +11,6 @@ This temporary transfer repository preserves local copies of skills obtained fro
 | `watch` | [bradautomates/claude-video](https://github.com/bradautomates/claude-video) | MIT; its original `LICENSE` is retained inside the skill directory |
 | `playwright`, `playwright-interactive` | [openai/skills](https://github.com/openai/skills) | Their original `LICENSE.txt` and `NOTICE.txt` files are retained inside each skill directory |
 | `charlies-content-workflow` | [charliemr99/charlies-workflow-skills](https://github.com/charliemr99/charlies-workflow-skills) | Maintained by the repository owner |
+| `tatirous-content-workflow` | This repository | Maintained by the repository owner |
 
 The installer does not contact these upstream repositories. It installs the exact audited payload committed here.

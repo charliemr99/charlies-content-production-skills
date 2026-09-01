@@ -47,6 +47,7 @@ CODEX_SKILLS=(
   playwright
   playwright-interactive
   charlies-content-workflow
+  tatirous-content-workflow
 )
 
 usage() {
@@ -275,7 +276,7 @@ expected = {
     },
     "codex-skills": {
         "watch", "playwright", "playwright-interactive",
-        "charlies-content-workflow",
+        "charlies-content-workflow", "tatirous-content-workflow",
     },
 }
 
@@ -678,7 +679,7 @@ if ! materialize_sources || ! validate_all_sources; then
 fi
 
 if [[ $VALIDATE_ONLY -eq 1 ]]; then
-  printf 'validation\tok\t28 skills; HOME not modified\n'
+  printf 'validation\tok\t29 skills; HOME not modified\n'
   exit 0
 fi
 
